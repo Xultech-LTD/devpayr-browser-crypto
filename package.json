@@ -1,6 +1,6 @@
 {
   "name": "devpayr-browser-crypto-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browser-safe AES-256-CBC encryption compatible with Laravel",
   "main": "dist/devpayr-crypto.umd.js",
   "module": "dist/devpayr-crypto.es.js",
