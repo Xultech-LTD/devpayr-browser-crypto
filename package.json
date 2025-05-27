@@ -1,11 +1,13 @@
 {
   "name": "devpayr-browser-crypto-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser-safe AES-256-CBC encryption compatible with Laravel",
   "main": "dist/devpayr-crypto.umd.js",
   "module": "dist/devpayr-crypto.es.js",
   "types": "dist/devpayr-crypto.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "import": "./dist/devpayr-crypto.es.js",
     "require": "./dist/devpayr-crypto.umd.js"
@@ -14,7 +16,14 @@
     "build": "vite build"
   },
   "license": "MIT",
-  "keywords": ["crypto", "browser", "laravel", "aes", "secure", "typescript"],
+  "keywords": [
+    "crypto",
+    "browser",
+    "laravel",
+    "aes",
+    "secure",
+    "typescript"
+  ],
   "author": "Michael Erastus",
   "repository": {
     "type": "git",
